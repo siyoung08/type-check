@@ -1,0 +1,51 @@
+#qna {
+    display: none;
+}
+
+.qBox {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 80%;
+}
+
+.answerList {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 15px;
+}
+
+.answerList:hover,
+.answerList:focus {
+    background-color: rgb(228, 95, 62);
+    color: whitesmoke;
+}
+
+.status {
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.statusBar {
+    height: 100%;
+    border-radius: 20px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+32,ff6600+75,c72200+100 */
+    background: #f3c5bd;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #f3c5bd 0%, #e86c57 32%, #ff6600 75%, #c72200 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f3c5bd 0%, #e86c57 32%, #ff6600 75%, #c72200 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #f3c5bd 0%, #e86c57 32%, #ff6600 75%, #c72200 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+
+}
